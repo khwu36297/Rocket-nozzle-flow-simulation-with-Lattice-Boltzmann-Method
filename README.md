@@ -72,31 +72,38 @@ python Verify.py
 ## 📊 Results and Verification
 
 ### 1. Convergence History
-![Convergence History]<img width="1800" height="1200" alt="image" src="https://github.com/user-attachments/assets/5cbf4cdc-ef2f-4967-89c1-197d053bfa78" />
+
+<img width="1800" height="1200" alt="image" src="https://github.com/user-attachments/assets/5cbf4cdc-ef2f-4967-89c1-197d053bfa78" />
 
 
 ### 2. Final Flow Field Visualization
-![Final Flow Field](LBM_Nozzle_FinalFrame.jpg)
+
+<img width="2230" height="889" alt="image" src="https://github.com/user-attachments/assets/dc2f8174-4bd1-4c35-9fc1-627fa2f1967a" />
+
 
 ### 3. Verification Checks
 
 **Mass Conservation**
-![Mass Conservation](verify_mass_conservation.png)
+
+<img width="1500" height="600" alt="image" src="https://github.com/user-attachments/assets/9d915848-8190-4d9e-b382-9db39acc3a21" />
+
 
 **Bernoulli's Principle**
-![Bernoulli Check](verify_bernoulli.png)
+
+<img width="1800" height="900" alt="image" src="https://github.com/user-attachments/assets/e1548517-e871-4370-9482-6ef577f815fb" />
+
 
 **Velocity Profile**
-![Velocity Profile](verify_velocity_profile.png)
+
+<img width="1800" height="1200" alt="image" src="https://github.com/user-attachments/assets/9cb899ea-d196-4baa-bc98-33486a0a434c" />
+
 
 **Numerical Stability**
-![Stability Check](verify_stability.png)
 
-### 2\. Final Flow Field Visualization
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/bbb63129-8be0-4e59-aafc-5935e02b3f21" />
 
-This image displays the simulated flow field at the final time step. Key features like the acceleration of fluid and pressure drop at the throat should be visually evident.
 
-### 3\. Verification Checks
+### 4\. Verification Checks
 
 The `Verify.py` script performs crucial checks to validate the physical and numerical correctness of the LBM solution:
 
