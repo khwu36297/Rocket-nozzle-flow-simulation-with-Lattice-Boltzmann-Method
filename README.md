@@ -71,9 +71,25 @@ python Verify.py
 
 ## 📊 Results and Verification
 
-### 1\. Convergence History
+### 1. Convergence History
+![Convergence History](convergence_history.png)
 
-This plot tracks the evolution of macroscopic quantities over time steps. A successful simulation should show that **Max/Avg Velocity**, **Mass Flow Rate**, and **Total Density** converge to constant values, indicating a reached **Steady State**.
+### 2. Final Flow Field Visualization
+![Final Flow Field](LBM_Nozzle_FinalFrame.jpg)
+
+### 3. Verification Checks
+
+**Mass Conservation**
+![Mass Conservation](verify_mass_conservation.png)
+
+**Bernoulli's Principle**
+![Bernoulli Check](verify_bernoulli.png)
+
+**Velocity Profile**
+![Velocity Profile](verify_velocity_profile.png)
+
+**Numerical Stability**
+![Stability Check](verify_stability.png)
 
 ### 2\. Final Flow Field Visualization
 
