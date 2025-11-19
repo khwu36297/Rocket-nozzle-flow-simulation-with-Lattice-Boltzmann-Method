@@ -1,4 +1,3 @@
-````markdown
 # 🚀 Lattice Boltzmann Method (LBM) Simulation: Nozzle Flow
 
 ## 📖 Project Overview
@@ -111,6 +110,3 @@ The `Verify.py` script performs crucial checks to validate the physical and nume
 ## 🤝 Contribution
 
 Feel free to open an **Issue** for bug reports, questions, or suggestions for improvements. **Pull Requests** with enhancements to the simulation model, boundary conditions, or verification tests are welcome\!
-
-```
-```
