@@ -72,7 +72,8 @@ python Verify.py
 ## 📊 Results and Verification
 
 ### 1. Convergence History
-![Convergence History](convergence_history.png)
+![Convergence History]<img width="1800" height="1200" alt="image" src="https://github.com/user-attachments/assets/5cbf4cdc-ef2f-4967-89c1-197d053bfa78" />
+
 
 ### 2. Final Flow Field Visualization
 ![Final Flow Field](LBM_Nozzle_FinalFrame.jpg)
