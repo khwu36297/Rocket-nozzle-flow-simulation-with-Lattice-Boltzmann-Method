@@ -10,6 +10,12 @@ This project emphasizes **numerical stability**, **grid independence**, and **ph
 
 ---
 
+## 📄 Project Documents
+You can access the full research document here:
+
+👉 Research PDF:
+https://drive.google.com/file/d/1cTTgeUgph8URlOdZKNAf_GhHWNrihe2L/view?usp=share_link
+
 ## 📸 Simulation Preview
 
 ### 🔹 Velocity & Pressure Field (Fine Grid)
