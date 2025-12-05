@@ -14,13 +14,14 @@ A high-performance, fully vectorized **2D Lattice Boltzmann Method (LBM)** solve
 ### 🔹 Velocity & Pressure Field (Fine Grid)
 Simulation results showing the acceleration of flow through the throat and the corresponding pressure drop, strictly following Bernoulli's principle.
 
-![Flow Field Distribution](<img width="2684" height="1769" alt="Fine_final_comprehensive" src="https://github.com/user-attachments/assets/60085458-e3fb-4531-8392-e1f4a891cdb2" />)
+![Flow Field Distribution](<img width="2684" height="1769" alt="image" src="https://github.com/user-attachments/assets/6cdb2403-26e9-495a-acaf-ca2e28760199" />)
+
 *(Figure: Velocity magnitude streamlines and static pressure distribution on 600x200 grid)*
 
 ### 🔹 Convergence & Stability
 Real-time monitoring of residual decay and mass conservation, proving the simulation has reached a true steady state.
 
-![Convergence History](<img width="2230" height="740" alt="Fine_evolution" src="https://github.com/user-attachments/assets/b4cb218f-93b9-4ec8-9a72-f7679628e3bc" />)
+![Convergence History](<img width="2230" height="740" alt="image" src="https://github.com/user-attachments/assets/b6c63ce6-e75d-4f92-812d-7d7612e9fdde" />)
 *(Figure: L2-Norm of residuals dropping below 10⁻⁶ and mass conservation check)*
 
 ---
