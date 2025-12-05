@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![NumPy](https://img.shields.io/badge/NumPy-Vectorized-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](![SuperLBM](https://img.shields.io/badge/SuperLBM-blue))
 ![Status](https://img.shields.io/badge/Status-Validated-brightgreen)
 
 A high-performance, fully vectorized **2D Lattice Boltzmann Method (LBM)** solver implemented in Python to simulate fluid dynamics inside a Converging–Diverging (De Laval) rocket nozzle.  
