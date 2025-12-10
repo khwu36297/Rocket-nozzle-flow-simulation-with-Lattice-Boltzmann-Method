@@ -9,12 +9,6 @@ This project emphasizes **numerical stability**, **grid independence**, and **ph
 
 ---
 
-## 📄 Project Documents
-You can access the full research document here:
-
-👉 Research PDF:
-https://drive.google.com/file/d/1cTTgeUgph8URlOdZKNAf_GhHWNrihe2L/view?usp=share_link
-
 ## 📸 Simulation Preview
 
 ### 🔹 Velocity & Pressure Field (Fine Grid)
@@ -38,7 +32,7 @@ Demonstrating residual decay and perfect mass conservation.
 - **⚡ High Performance:** Fully **NumPy-vectorized** (97.5% loop elimination) for efficient collision and streaming operations.  
 - **🧪 Physical Model:** Uses the **D2Q9-BGK** lattice.  
 - **📐 Complete Grid Independence Study:**  
-  Automatically runs **Coarse (150×50)**, **Medium (300×100)**, and **Fine (600×200)** grids and computes **GCI (≈2.6%)**.  
+  Automatically runs **Coarse (150×50)**, **Medium (300×100)**, and **Fine (600×200)** grids and computes **GCI (≈8.6%)**.  
 - **📊 Verification Suite:**  
   Includes mass conservation (<0.01% error), Bernoulli validation, and residual-based stability checks.  
 - **🎬 Visualization Outputs:**  
@@ -75,20 +69,6 @@ python Nozzle.py
 3. The script computes the **GCI** and prints a verification summary.  
 4. All results—plots, animations, raw fields—are stored in `LBM_Data_<GridName>/`.
 
----
-
-## 📊 Results & Verification
-
-The solver passes all verification tests and exhibits asymptotic grid convergence.
-
-| Grid Resolution | Iterations | Max Velocity | Residual (L2) |
-| :--- | :--- | :--- | :--- |
-| **Coarse (150×50)** | 6,000  | 0.2555 | 1.77×10⁻⁸ |
-| **Medium (300×100)** | 10,000 | 0.2396 | 1.38×10⁻⁷ |
-| **Fine (600×200)** | **20,000** | **0.2246** | **2.46×10⁻⁶** |
-
-**Grid Convergence Index (GCI):** ~2.6%  
-**Conclusion:** The fine grid removes geometry discretization errors (“staircase effect”) and yields the physically correct maximum velocity.
 
 ---
 
